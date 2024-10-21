@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito", sans-serif;
+}
+body{
+  
+}
+.contact{
+  margin: 50px auto;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h1{
+font-size: 50px;
+font-family: 'Roboto', sans-serif;
+}
+h5{
+  width: 70%;
+  margin: 0px auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: gray;
+  font-size: 18px;
+
+
+}
+.grid_contact{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+margin: 50px 0px;
+height: 600px;
+}
+.contact_info{
+  background-color: #00B8B0;
+  width: 90%;
+  margin: auto auto;
+  border-radius: 20px;
+padding:8% 10%;
+color: white;
+text-align: left;
+  height: 90%;
+}
+h4{
+  font-family: 'Roboto' ,sans-serif;
+  color: #fefefef3;
+  font-size: 30px;
+}
+p{
+  color: whitesmoke;
+  line-height: 1.5;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.phone,.email,.address{
+  display: flex;
+  /* border: 1px solid red; */
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+  
+}
+.phone .fa-solid,.email .fa-solid,.address .fa-solid{
+  font-size: 25px;
+}
+.phone p,.email p,.address p{
+  color: whitesmoke;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.email p,.address p{
+  color: whitesmoke;
+  line-height: 1.5;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.contactform{
+  width: 90%;
+  margin: auto auto;
+
+  height: 90%;
+  display: flex;
+  justify-content: left;
+  background-color: white;
+  text-align: left;
+}
+.form-container {
+ 
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #aba9a9;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+input[type="text"], input[type="email"] {
+  height: 40px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+.icon {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  font-size: 24px;
+  color: #f4c542;
+}
+
+.submit-btn {
+  padding: 12px;
+  background-color: #00B8B0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 30%;
+}
+
+.submit-btn:hover {
+  background-color: #00B8B0;
+}
+@media screen and (max-width:1000px){
+  .grid_contact{
+    display: grid;
+    grid-template-columns: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  margin: 50px 0px;
+  height: auto;
+  }
+  .submit-btn {
+    padding: 12px;
+    background-color: #00B8B0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80%;
+  }
+  .contactform{
+    width: 90%;
+    margin: auto auto;
+  
+    height: 90%;
+    display: flex;
+    justify-content: left;
+    background-color: white;
+    text-align: left;
+    padding-bottom: 100px;
+  }
+  .contact_info{
+    background-color: #00B8B0;
+    width: 90%;
+    margin: auto auto;
+    border-radius: 20px;
+  padding:8% 10%;
+  color: white;
+  text-align: left;
+    height: 100%;
+    margin-top: 5%;
+  }
+  h5{
+    width: 90%;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+  
+  
+  }
+}
